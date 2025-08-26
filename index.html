@@ -4,24 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafeteria</title>
+    <title>Cafeteria</title> 
 
+    <!-- Bootstrap CSS -->
     <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- CSS proprio-->
     <link href="./assets/css/index.css" rel="stylesheet">
     <link href="./assets/css/footer.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <!-- navbar -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
                     <img src="./assets/images/arvore-frutifera.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> Tapuió
                 </a>
+
+                <!-- menu -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -37,7 +42,7 @@
     </header>
 
     <main>
-
+        <!-- carrossel -->
         <div class="container mb-1">
             <section id="landing-carousel" class="mb-5">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="max-height: 400px; overflow: hidden;">
@@ -58,19 +63,19 @@
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-                <span class="visually-hidden">Próximo</span>
-            </button>
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
                 </div>
             </section>
         </div>
-
     </main>
 
+    <!-- footer -->
     <footer class="mt-auto">
         <div class="container">
             <div class="row">
@@ -88,8 +93,10 @@
         </div>
     </footer>
 
+    <!-- Bootstrap JS -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- JS proprio -->
     <script src="./src/index.js" type="module"></script>
 </body>
 
